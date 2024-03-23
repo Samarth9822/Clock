@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+.mdiv {
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://i.pinimg.com/originals/2d/2c/d2/2d2cd2fa701b90357f23224fac232a97.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  color: white;
+  background-color: transparent;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: top;
+  max-width: 600px;
+}
+
+.container h1 {
+  font-size: 2.7em;
+  margin-top: 300px;
+  margin-bottom: 400px;
+}
+
+.container p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.container a {
+  color: blueviolet;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container a:hover {
+  text-decoration: underline;
+}
+s
